@@ -1,1 +1,3 @@
-<script src="https://s13.cnzz.com/z_stat.php?id={{ site.cnzz-analyisis-id }}&web_id={{ site.cnzz-analyisis-id }}" language="JavaScript"></script>
+{% if site.cnzz-analytics-id %}
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_{{ site.cnzz-analyisis-id }}'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/stat.php%3Fid%3D{{ site.cnzz-analyisis-id }}%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+{% endif %}
