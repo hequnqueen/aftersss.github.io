@@ -1,6 +1,8 @@
-# 码志
+# 简介
 
-我的个人博客：<http://mazhuang.org>，欢迎 Star 和 Fork。
+本项目是基于jekyll（一个静态网站工具）构建的博客，使用Github-pages提供网页服务。
+
+对应的个人博客地址：<http://www.ixiaomili.cn>，欢迎 Star 和 Fork。
 
 ## 概览
 
@@ -15,9 +17,9 @@
 
 ## 效果预览
 
-**[在线预览 &rarr;](http://mazhuang.org)**
+**[在线预览 &rarr;](http://www.ixiaomili.cn)**
 
-![screenshot home](http://mazhuang.org/assets/images/screenshots/home.png)
+![screenshot home](http://www.ixiaomili.cn/assets/images/screenshots/home.png)
 
 ## Fork 指南
 
@@ -33,7 +35,7 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 3. 修改配置。
 
-   网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 title、subtitle 和 Disqus 的用户名等。
+   网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 title、subtitle 和 Disqus 的用户名、cnzz统计id等。
 
    **注意：** 因为 Disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus.username 修改成你自己的。我对该缺陷的记录见 [Issues#2][3]。
 
@@ -73,6 +75,7 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 ## 致谢
 
 本博客外观基于 [DONGChuan](http://dongchuan.github.io) 修改，感谢！
+本博客源码基于 [Mazhuang](https://github.com/mzlogin/mzlogin.github.io) 修改，感谢！
 
 [1]: https://github.com/mzlogin/chinese-copywriting-guidelines
 [2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
