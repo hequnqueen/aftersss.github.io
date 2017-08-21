@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "记一次java进程被linux杀掉的排查过程"
-date:   2017-03-15 15:12:12 +0800
+title:  "使用redis实现分布式锁的一些坑"
+date:   2017-05-25 15:12:12 +0800
 categories: Java
 author: 小米粒
-keywords: java, linux, oom killer
+keywords: java, redis, lock
 description: 
 ---
 
-> 记一次java进程被linux杀掉的排查过程
+> 使用redis实现分布式锁的一些坑
 
 随着分布式技术的发展，分布式锁的使用越来越广泛，jvm锁可以控制对jvm内部资源的独占访问，对于分布式资源却无能为力，这时候就需要采用分布式锁来实现。分布式锁的实现方式有很多种：可以使用关系数据库（比如mysql的select for update悲观锁；当然乐观锁也可以，但实现较复杂）；可以使用zookeeper；也可以使用memcached、redis等支持原子操作的缓存系统；不一而足。当然每种实现都有可以探讨的细节，今天我们就来深入redis实现分布式锁的一些细节以及容易掉坑的地方，最后针对redis分布式锁给出一些优化建议。
 

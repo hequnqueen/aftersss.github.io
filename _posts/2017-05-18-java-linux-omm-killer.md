@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "记一次java进程被linux杀掉的排查过程"
-date:   2017-03-15 15:12:12 +0800
+date:   2017-05-18 15:12:12 +0800
 categories: Java
 author: 小米粒
 keywords: java, linux, oom killer
