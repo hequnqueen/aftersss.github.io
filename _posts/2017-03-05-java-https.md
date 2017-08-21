@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "本文探讨https证书中没有配置好证书链导致的问题。"
-date:   2017-08-08 15:12:12 +0800
+date:   2017-03-05 15:12:12 +0800
 categories: Java
 author: 小米粒
-keywords: java, final
+keywords: java, https, ssl, 证书
 description: 本文探讨https证书中没有配置好证书链导致的问题.
 ---
 
