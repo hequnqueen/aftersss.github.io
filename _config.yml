@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://www.ixiaomili.cn
+url: http://yh.ixiaomili.cn
 date_format: "ordinal"
 title: 小米粒之家
 subtitle: "我们只是代码的搬运工"
@@ -18,8 +18,8 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: 小米粒
 organization: ixiaomili.cn
-organization_url: http://www.ixiaomili.cn
-github_username: aftersss
+organization_url: http://yh.ixiaomili.cn
+github_username: hequnqueen
 location: HangZhou, China
 email: 
 
@@ -78,7 +78,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: aftersss/aftersss.github.io
+repository: hequnqueen/hequnqueen.github.io
 
 # ---------------- #
 #      Comments    #
@@ -89,14 +89,14 @@ comments_provider: gitment
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: aftersss
+    username: hequnqueen
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: aftersss
-    repo: aftersss.github.io
+    owner: hequnqueen
+    repo: hequnqueen.github.io
     oauth:
-        client_id: 3e604fb6c3900582407f
-        client_secret: fc485690428a23f38b45ae240bed866f256a651a
+        client_id: 161f67de896762144cfe
+        client_secret: 6fdc761160e83132b2627d197e29b50a9f30a9e8
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
 
@@ -106,4 +106,4 @@ lazy_load_disqus : true
 google:
     analytics_id:
 
-cnzz-analyisis-id : 1263649560
+cnzz-analyisis-id:
